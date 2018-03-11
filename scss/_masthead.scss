@@ -2,7 +2,7 @@
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url('../img/header.jpg');
+  background-image: url('../img/header.png');
   background-position: center center;
   @include background-cover;
   hr {
@@ -13,13 +13,14 @@ header.masthead {
     font-size: 2rem;
   }
   #mc_embed_signup .button {
-     background-color: $primary;
-   }
+    font-size: 14px;
+    background-color: $primary;
+  }
   #mc_embed_signup .button:hover {
-    background-color: darken($primary, 2%);
+    background-color: darken($primary, 15%);
   }
   p {
-    font-weight: 300;
+    font-weight: 400;
   }
   @media (min-width: 768px) {
     p {

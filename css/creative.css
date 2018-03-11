@@ -9,7 +9,7 @@ html {
   height: 100%; }
 
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif; }
+  font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif; }
 
 hr {
   max-width: 50px;
@@ -36,7 +36,10 @@ h6 {
   font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif; }
 
 .bg-primary {
-  background-color: #E69138 !important; }
+  background-color: #e4892a !important; }
+
+.bg-secondary {
+  background-color: #313131 !important; }
 
 .bg-dark {
   background-color: #212529 !important; }
@@ -54,15 +57,13 @@ body {
   -webkit-tap-highlight-color: #212529; }
 
 #mainNav {
-  border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-  background-color: #fff;
+  background-color: #313131;
   font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s; }
   #mainNav .navbar-brand {
     font-weight: 700;
-    text-transform: uppercase;
     color: #E69138;
     font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif; }
     #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -72,10 +73,10 @@ body {
     font-size: .9rem;
     font-weight: 700;
     text-transform: uppercase;
-    color: #212529; }
+    color: #fefefe; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
     #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-      color: #E69138; }
+      color: #e69138; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
     #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
       color: #E69138 !important;
@@ -86,11 +87,12 @@ body {
   @media (min-width: 992px) {
     #mainNav {
       border-color: transparent;
-      background-color: transparent; }
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent);
+      /*Standard*/ }
       #mainNav .navbar-brand {
-        color: rgba(255, 255, 255, 0.7); }
+        color: #E69138; }
         #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-          color: #fff; }
+          color: #E69138; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link {
         padding: 0.5rem 1rem; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link,
@@ -101,22 +103,22 @@ body {
           color: #fff; }
       #mainNav.navbar-shrink {
         border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-        background-color: #fff; }
+        background: #313131; }
         #mainNav.navbar-shrink .navbar-brand {
           color: #E69138; }
           #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
             color: #e69138; }
         #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
         #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
-          color: #212529; }
+          color: #fff; }
           #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
           #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-            color: #E69138; } }
+            color: #e69138; } }
 
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header.jpg");
+  background-image: url("../img/header.png");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -128,11 +130,12 @@ header.masthead {
   header.masthead h1 {
     font-size: 2rem; }
   header.masthead #mc_embed_signup .button {
+    font-size: 14px;
     background-color: #E69138; }
   header.masthead #mc_embed_signup .button:hover {
-    background-color: #e58c2f; }
+    background-color: #ba6b17; }
   header.masthead p {
-    font-weight: 300; }
+    font-weight: 400; }
   @media (min-width: 768px) {
     header.masthead p {
       font-size: 1.15rem; } }
@@ -163,12 +166,6 @@ header.masthead {
     width: 100vw; }
   #posts .post-icon {
     width: 40%; }
-  #posts #one-to-many {
-    background-color: #2a5d78;
-    padding: 5rem; }
-  #posts #one-to-one {
-    background-color: #E69138;
-    padding: 5rem; }
 
 .q-a {
   margin-bottom: 20px; }
