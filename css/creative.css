@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Creative v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/creative)
- * Copyright 2013-2017 Start Bootstrap
+ * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
  */
 body,
@@ -20,12 +20,12 @@ hr.light {
   border-color: #fff; }
 
 a {
-  color: #FF8C00;
+  color: #E69138;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s; }
   a:hover {
-    color: #fe8c00; }
+    color: #e69138; }
 
 h1,
 h2,
@@ -33,10 +33,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+  font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif; }
 
 .bg-primary {
-  background-color: #FF8C00 !important; }
+  background-color: #E69138 !important; }
 
 .bg-dark {
   background-color: #212529 !important; }
@@ -56,17 +56,17 @@ body {
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #fff;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s; }
   #mainNav .navbar-brand {
     font-weight: 700;
     text-transform: uppercase;
-    color: #FF8C00;
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+    color: #E69138;
+    font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif; }
     #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-      color: #fe8c00; }
+      color: #e69138; }
   #mainNav .navbar-nav > li.nav-item > a.nav-link,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
     font-size: .9rem;
@@ -75,10 +75,10 @@ body {
     color: #212529; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
     #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-      color: #FF8C00; }
+      color: #E69138; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
     #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-      color: #FF8C00 !important;
+      color: #E69138 !important;
       background-color: transparent; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
       #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
@@ -103,15 +103,15 @@ body {
         border-bottom: 1px solid rgba(33, 37, 41, 0.1);
         background-color: #fff; }
         #mainNav.navbar-shrink .navbar-brand {
-          color: #FF8C00; }
+          color: #E69138; }
           #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-            color: #fe8c00; }
+            color: #e69138; }
         #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
         #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
           color: #212529; }
           #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
           #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-            color: #FF8C00; } }
+            color: #E69138; } }
 
 header.masthead {
   padding-top: 10rem;
@@ -128,9 +128,9 @@ header.masthead {
   header.masthead h1 {
     font-size: 2rem; }
   header.masthead #mc_embed_signup .button {
-    background-color: #FF8C00; }
+    background-color: #E69138; }
   header.masthead #mc_embed_signup .button:hover {
-    background-color: #f58600; }
+    background-color: #e58c2f; }
   header.masthead p {
     font-weight: 300; }
   @media (min-width: 768px) {
@@ -167,7 +167,7 @@ header.masthead {
     background-color: #2a5d78;
     padding: 5rem; }
   #posts #one-to-one {
-    background-color: #FF8C00;
+    background-color: #E69138;
     padding: 5rem; }
 
 .q-a {
@@ -178,23 +178,23 @@ header.masthead {
   font-size: 18px; }
 
 .text-primary {
-  color: #FF8C00 !important; }
+  color: #E69138 !important; }
 
 .btn {
   font-weight: 700;
   text-transform: uppercase;
   border: none;
   border-radius: 300px;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+  font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif; }
 
 .btn-xl {
   padding: 1rem 2rem; }
 
 .btn-primary {
-  background-color: #FF8C00;
-  border-color: #FF8C00; }
+  background-color: #E69138;
+  border-color: #E69138; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     color: #fff;
-    background-color: #e67e00 !important; }
+    background-color: #e38421 !important; }
   .btn-primary:active, .btn-primary:focus {
     box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important; }
